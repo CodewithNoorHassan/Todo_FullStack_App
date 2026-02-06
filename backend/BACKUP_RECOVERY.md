@@ -19,7 +19,7 @@ This document outlines the backup and recovery procedures for the TaskMaster API
 pg_dump -h hostname -U postgres -W -F t database_name > backup_file.tar
 
 # Or for Neon PostgreSQL:
-pg_dump "postgresql://username:password@endpoint.region.aws.neon.tech/dbname" --format=custom --file=backup_file.dump
+pg_dump "${DATABASE_URL}" --format=custom --file=backup_file.dump
 ```
 
 #### Backup Verification

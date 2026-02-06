@@ -44,8 +44,8 @@ Your Neon PostgreSQL database has been successfully integrated into the TodoApp_
 
 ### Environment Variables Set
 ```
-NEON_DATABASE_URL=postgresql://neondb_owner:npg_lXPpTU3ub1Gs@ep-damp-truth-a7mzaj4e-pooler.ap-southeast-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require
-DATABASE_URL=postgresql://neondb_owner:npg_lXPpTU3ub1Gs@ep-damp-truth-a7mzaj4e-pooler.ap-southeast-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+NEON_DATABASE_URL=your-neon-postgres-connection-string
+DATABASE_URL=your-primary-database-connection-string
 BETTER_AUTH_SECRET=your-super-secret-key-here-change-in-production
 BETTER_AUTH_URL=http://localhost:3000
 APP_ENV=development

@@ -6,8 +6,8 @@ The following environment variables must be configured for production deployment
 
 ```bash
 # Database Configuration
-NEON_DATABASE_URL=postgresql://username:password@endpoint.region.aws.neon.tech/dbname
-DATABASE_URL=postgresql://hostname:port/database_name
+NEON_DATABASE_URL=your-neon-postgres-connection-string
+DATABASE_URL=your-primary-database-connection-string
 
 # Authentication Configuration
 BETTER_AUTH_SECRET=your-super-secure-random-secret-string-here
